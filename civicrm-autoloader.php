@@ -25,3 +25,6 @@ if ( set_include_path( $include_path ) === false ) {
 
 require_once 'CRM/Core/ClassLoader.php';
 CRM_Core_ClassLoader::singleton()->register();
+require_once 'Log.php';
+require_once 'Mail.php';
+require_once 'api/api.php';
