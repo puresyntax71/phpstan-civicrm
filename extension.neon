@@ -2,6 +2,7 @@ parameters:
 	universalObjectCratesClasses:
 		- Drupal\views\ResultRow
 		- Symfony\Component\Validator\Constraint
+		- Drupal\Core\Database\Query\Select
 	scanDirectories:
 		- '%currentWorkingDirectory%/vendor/civicrm/civicrm-core/ext'
 	bootstrapFiles:
