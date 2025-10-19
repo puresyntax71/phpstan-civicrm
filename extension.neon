@@ -1,4 +1,7 @@
 parameters:
+	universalObjectCratesClasses:
+		- Drupal\views\ResultRow
+		- Symfony\Component\Validator\Constraint
 	scanDirectories:
 		- '%currentWorkingDirectory%/vendor/civicrm/civicrm-core/ext'
 	bootstrapFiles:
