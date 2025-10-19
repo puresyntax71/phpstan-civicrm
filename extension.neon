@@ -1,4 +1,6 @@
 parameters:
+	scanDirectories:
+		- '%currentWorkingDirectory%/vendor/civicrm/civicrm-core/ext'
 	bootstrapFiles:
 		- civicrm-autoloader.php
 	civicrm:
