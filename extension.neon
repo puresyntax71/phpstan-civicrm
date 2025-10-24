@@ -4,6 +4,8 @@ parameters:
 		- Symfony\Component\Validator\Constraint
 	scanDirectories:
 		- '%currentWorkingDirectory%/vendor/civicrm/civicrm-core/ext'
+		# TODO: This needs to be corrected.
+		- '%currentWorkingDirectory%/web/sites/default/civicrm/extensions'
 	bootstrapFiles:
 		- civicrm-autoloader.php
 	civicrm:
